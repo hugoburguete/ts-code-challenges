@@ -2,6 +2,7 @@
  * For a detailed explanation regarding each configuration property, visit:
  * https://jestjs.io/docs/configuration
  */
+
 import type { Config } from 'jest';
 
 const config: Config = {
@@ -177,6 +178,7 @@ const config: Config = {
   transform: {
     '^.+.tsx?$': ['ts-jest', {}],
   },
+
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
   //   "/node_modules/",
