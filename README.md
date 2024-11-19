@@ -1,3 +1,7 @@
-# Run scripts
+# Code Challenges
 
-- To run scripts, type in the CLI `./node_modules/.bin/ts-node [FILENAME].ts` where filename is the code challenge you want to run.
+- `./node_modules/.bin/ts-node src/[FILENAME].ts` to run a specific challenge.
+
+# Test
+
+- `pnpm run test` or `pnpm run test:watch` to run tests
